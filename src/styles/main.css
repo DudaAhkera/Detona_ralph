@@ -49,3 +49,10 @@
 .menu-score {
     margin-top: 10px;
 }
+
+.btn-sound {
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    position: absolute;
+}
