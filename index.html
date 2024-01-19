@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./src/styles/main.css">
 </head>
 <body>
+    <input class="btn-sound" type="button" value="play/pause" onclick="toggleAudio()">
+    <audio id="meuAudio" src="./src/audios/old.mp3"  loop>
+    </audio>
     <div class="container">
         <div class="menu">
             <div class="menu-time">
@@ -46,8 +49,7 @@
                 <div class="square" id="9"></div>
             </div>
         </div>
-    </div>
-    <audio src="./src/audios/old.mp3"></audio>
+    </div>      
     <script defer src="./src/scripts/engine.js"></script>
 </body>
 </html>
