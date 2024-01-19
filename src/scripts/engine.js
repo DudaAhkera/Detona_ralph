@@ -41,6 +41,16 @@ function playSound(audioName) {
     audio.volume = 0.2;
     audio.play();
 }
+//botão liga/desliga áudio
+function toggleAudio() {
+    var meuAudio = document.getElementById("meuAudio");
+    if (meuAudio.paused) {
+      meuAudio.play();
+    } else {
+      meuAudio.pause();
+    }
+  }
+  
 
 //sortear um inimigo, limpando a classe inimiga dos quadrados
 function randomSquare(){
